@@ -119,7 +119,7 @@ func PostTagDels(pid int, tids []int) bool {
 	return false
 }
 
-// PostTagDel 删除文章对应的标签_文章删除文章的时候
+// PostTagDel 删除文章对应的标签_文章删除文章的时候1
 func PostTagDel(pid int) bool {
 	sess := DB.NewSession()
 	defer sess.Close()
